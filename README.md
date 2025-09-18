@@ -76,13 +76,15 @@ Swap Mechanism: A verified build in the Test Slot is seamlessly and instantly sw
 
 Staging environment is used to test new builds before they go live.
 Example: Testing React frontend functionality and verifying deployment artifacts.
-![Staging Environment](./assets/staging.png)
+<img width="1854" height="1048" alt="Screenshot from 2025-09-14 02-19-56" src="https://github.com/user-attachments/assets/79433e34-df1d-4230-bf81-1ea01e559a12" />
+
 
 ### 2. Production Slot
 
 Production environment is the live application accessed by end users.
 Example: Verified and swapped from staging slot for zero-downtime deployment.
-![Production Environment](./assets/production.png)
+<img width="1854" height="1048" alt="Screenshot from 2025-09-14 02-20-04" src="https://github.com/user-attachments/assets/ac0a0d49-8f84-401e-ab37-49ff0a16a367" />
+
 
 ## 📊 Deployment Strategies
 This project primarily uses a Blue-Green Deployment model.
