@@ -1,5 +1,5 @@
 # React Web App on Azure with CI/CD 🚀
-## This project showcases a modern web application deployment workflow, demonstrating practical DevOps and cloud deployment skills. It features a React frontend deployed on Azure Web App using Azure DevOps CI/CD pipelines for a robust, zero-downtime delivery model.
+### This project showcases a modern web application deployment workflow, demonstrating practical DevOps and cloud deployment skills. It features a React frontend deployed on Azure Web App using Azure DevOps CI/CD pipelines for a robust, zero-downtime delivery model.
 
 # 🎯 Purpose of the Project
    Portfolio: A hands-on example to showcase end-to-end deployment skills, from code to cloud.
@@ -55,7 +55,7 @@ This is an instantaneous operation that provides zero-downtime deployment.
 ## 🌐 Deployment Details
 The application is hosted on an Azure App Service Plan, which can be scaled based on performance and cost requirements.
 
-App Service Plan Options:
+### App Service Plan Options:
 
 B1 Basic: Suitable for small-scale applications with custom domain support.
 
@@ -69,6 +69,20 @@ Test Slot (Green): Used to deploy and validate new application builds without af
 Production Slot (Blue): The live application accessed by end users.
 
 Swap Mechanism: A verified build in the Test Slot is seamlessly and instantly swapped into the Production Slot.
+
+## 📸 Screenshots
+
+### 1. Staging Slot
+
+Staging environment is used to test new builds before they go live.
+Example: Testing React frontend functionality and verifying deployment artifacts.
+![Staging Environment](./assets/staging.png)
+
+### 2. Production Slot
+
+Production environment is the live application accessed by end users.
+Example: Verified and swapped from staging slot for zero-downtime deployment.
+![Production Environment](./assets/production.png)
 
 ## 📊 Deployment Strategies
 This project primarily uses a Blue-Green Deployment model.
